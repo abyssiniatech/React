@@ -7,15 +7,15 @@ export function Counter(){
     },1000);
     return (
         <>
-            {loading && (
+            {!loading && (
                 <div className='bg-indigo-800 text-white  min-h-screen flex justify-center items-center '>
-                    <p className='text-2xl font-bold mb-4'>
+                    <p className='text-2xl font-bold mb-4'><span style={{color: counter > 0 ? "green" : counter < 0 ? "red" : "white"}} className='m-2'>{counter}</span>
                         {counter > 0 ? "Positive" : counter < 0 ? "Negative" : "Zero"}
                     </p>
                     <button className='px-4 py-2 m-2 rounded bg-teal-700 text-2xl text-white' onClick={() => setCounter(counter + 1)}>+</button>
                     <button className='px-4 py-2 m-2 rounded bg-teal-700 text-2xl text-white' onClick={() => setCounter(counter - 1)}>-</button>
                 </div>
-            )}: "Loading..."
+            )}
         </>
     );
 }
