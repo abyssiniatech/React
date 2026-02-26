@@ -1,9 +1,9 @@
-import Useeffect from "./components/Hooks/Useeffect"
+import Useref from "./components/Hooks/Useref"
 
 const App = () => {
   return (
     <div>
-      <Useeffect />
+     <Useref />
     </div>
   )
 }
