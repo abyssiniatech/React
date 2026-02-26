@@ -1,9 +1,9 @@
-import Usestate from "./components/Hooks/Usestate"
+import Useeffect from "./components/Hooks/Useeffect"
 
 const App = () => {
   return (
     <div>
-      <Usestate/>
+      <Useeffect />
     </div>
   )
 }
