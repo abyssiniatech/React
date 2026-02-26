@@ -1,13 +1,10 @@
+import ReactSimpleLogic from "./components/ReactSimple.logic"
 
-import './App.css'
-import { Counter } from './components/Counter.tsx'
-function App() {
-
-
+const App = () => {
   return (
-    <>
-     <Counter />
-    </>
+    <div>
+      <ReactSimpleLogic />
+    </div>
   )
 }
 
