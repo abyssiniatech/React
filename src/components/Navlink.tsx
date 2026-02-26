@@ -7,6 +7,9 @@ const Navlink = () => {
       <Link to='/about'>About</Link>
       <Link to='/product'>Product</Link>
       <Link to='/contact'>Contact</Link>
+      <Link to='/hooks'>
+          hooks
+      </Link>
     </div>
   )
 }
