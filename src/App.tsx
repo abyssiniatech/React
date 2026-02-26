@@ -1,12 +1,13 @@
 
 import './App.css'
-import { Counter } from './components/Counter.tsx'
+import Jsx from './components/Jsx'
+
 function App() {
 
 
   return (
     <>
-     <Counter />
+      <Jsx />
     </>
   )
 }
