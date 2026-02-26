@@ -1,9 +1,17 @@
-import ReactSimpleLogic from "./components/ReactSimple.logic"
+import {Routes,Route} from "react-router-dom"
+import Header from "./components/Header"
 
 const App = () => {
   return (
     <div>
-      <ReactSimpleLogic />
+     <Header />
+     <Routes>
+     <Route element="Home" path="/" >Home</Route>
+     <Route element="About" path="/about" >About</Route>
+     <Route element="Product" path="/product" >Product</Route>
+     <Route element="Contact" path="/contact" >Contact</Route>
+    </Routes>
+  
     </div>
   )
 }
