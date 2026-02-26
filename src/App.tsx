@@ -1,8 +1,9 @@
-import Parentcontext from "./components/Hooks/Parentcontext"
+import Usereducer from "./components/Hooks/Usereducer"
+
 const App = () => {
   return (
     <div className="text-center ">
-     <Parentcontext />
+     <Usereducer />
     </div>
   )
 }
