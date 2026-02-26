@@ -1,9 +1,8 @@
-import Useref from "./components/Hooks/Useref"
-
+import Parentcontext from "./components/Hooks/Parentcontext"
 const App = () => {
   return (
-    <div>
-     <Useref />
+    <div className="text-center ">
+     <Parentcontext />
     </div>
   )
 }
