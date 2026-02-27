@@ -1,9 +1,8 @@
-import Usereducer from "./components/Hooks/Usereducer"
-
+import User from "./components/hookform/User"
 const App = () => {
   return (
     <div className="text-center ">
-     <Usereducer />
+     <User />
     </div>
   )
 }
