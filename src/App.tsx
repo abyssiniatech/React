@@ -1,9 +1,9 @@
-import ReactSimpleLogic from "./components/ReactSimple.logic"
+import Usereducer from "./components/Hooks/Usereducer"
 
 const App = () => {
   return (
-    <div>
-      <ReactSimpleLogic />
+    <div className="text-center ">
+     <Usereducer />
     </div>
   )
 }
